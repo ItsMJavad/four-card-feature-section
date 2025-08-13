@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+header {
+    width: 32rem;
+    margin: 6rem auto 0;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+}
+
+header h1 {
+    color: #4c4e61ff;
+    font-weight: 200;
+    font-size: 2.1rem;
+    margin: 0;
+}
+
+header .title {
+    color: #4c4e61ff;
+    font-weight: 600;
+    font-size: 2.1rem;
+    margin: 0;
+}
+
+header .intro {
+    color: #4c4e61ff;
+    font-weight: 400;
+    font-size: 0.95rem;
+    margin: 1rem 0;
+}
+
+/* Main*/
+
+main {
+    width: 90%;
+    margin: 4rem auto 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    font-family: 'poppins', sans-serif;
+}
+
+main h2 {
+    color: #4c4e61ff;
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+main p {
+    color: #697077ff;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+main img {
+    width: 4rem;
+    height: 4rem;
+    margin: 0.9rem 0;
+    float: right;
+}
+
+.supervisor {
+    width: 16.5rem;
+    background-color: white;
+    padding: 2rem 2rem 1.6rem;
+    box-shadow: 0 0.6rem 0.8rem rgb(226, 226, 226);
+    border-radius: 0.4rem;
+    border-top: 0.3rem solid #45d3d3ff;
+}
+
+.middle-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.team-builder {
+    width: 16.5rem;
+    background-color: white;
+    padding: 2rem 2rem 1.6rem;
+    box-shadow: 0 0.6rem 0.8rem rgb(226, 226, 226);
+    border-radius: 0.4rem;
+    border-top: 0.3rem solid #ea5353ff;
+}
+
+.karma {
+    width: 16.5rem;
+    background-color: white;
+    padding: 2rem 2rem 1.6rem;
+    box-shadow: 0 0.6rem 0.8rem rgb(226, 226, 226);
+    border-radius: 0.4rem;
+    border-top: 0.3rem solid #fcaf4aff;
+}
+
+.calculator {
+    width: 16.5rem;
+    background-color: white;
+    padding: 2rem 2rem 1.6rem;
+    box-shadow: 0 0.6rem 0.8rem rgb(226, 226, 226);
+    border-radius: 0.4rem;
+    border-top: 0.3rem solid #549ef2ff;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 48rem) {
+    main {
+        flex-direction: column;
+    }
+}
