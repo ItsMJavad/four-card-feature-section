@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    width: 90%;
+    width: 95%;
     max-width: 32rem;
     margin: 6rem auto 0;
     font-family: 'poppins', sans-serif;
@@ -38,7 +38,7 @@ header .intro {
 /* Main*/
 
 main {
-    width: 90%;
+    width: 95%;
     margin: 4rem auto 8rem;
     display: flex;
     flex-direction: row;
@@ -114,8 +114,9 @@ main img {
 }
 
 .attribution {
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-align: center;
+    font-family: 'poppins';
 }
 
 .attribution a {
