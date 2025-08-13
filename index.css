@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    width: 32rem;
+    width: min(90%, 32rem);
     margin: 6rem auto 0;
     font-family: 'poppins', sans-serif;
     text-align: center;
